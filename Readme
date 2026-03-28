@@ -1,0 +1,15 @@
+This project is a deep learning-based blood cell classification system designed to identify different types of blood cells from microscopic images with high accuracy. Using transfer learning with the EfficientNet architecture, the model is trained on a labeled dataset of blood cell images and achieves strong performance in multi-class classification tasks.
+
+The workflow includes data preprocessing, augmentation, model training, and fine-tuning to improve generalization and boost accuracy beyond 90%. Techniques such as normalization, image augmentation, dropout regularization, and learning rate scheduling are applied to enhance model robustness and reduce overfitting.
+
+The model is deployed using an interactive web interface built with Gradio, allowing users to upload a blood cell image and instantly receive predictions along with class probabilities. This makes the system user-friendly and suitable for demonstration or educational purposes in medical image analysis.
+
+Key Features:
+
+* High-accuracy multi-class classification using EfficientNet
+* Data augmentation for improved generalization
+* Fine-tuned model for enhanced performance
+* Interactive Gradio interface for real-time predictions
+* Easily deployable and reproducible workflow in Google Colab
+
+This project demonstrates the practical application of deep learning in medical imaging and serves as a strong foundation for further research in automated disease detection and healthcare AI systems.
